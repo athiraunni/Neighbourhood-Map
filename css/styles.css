@@ -1,0 +1,33 @@
+html, body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+     margin: 0;
+     padding: 0;
+     font-family: helvetica, sans-serif;
+ }
+
+.menu {
+    background-color: #cccccc;
+    padding-left: 20px;
+
+}
+
+.listview {
+    cursor: pointer;
+}
+
+#map
+{
+    flex-grow: 1;
+    width: 100%;
+}
+
+#pano
+{
+
+  width: 300px;
+  height: 200px;
+}
+}

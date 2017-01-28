@@ -1,16 +1,25 @@
-html, body
+html
 {
     display: flex;
     flex-direction: column;
     height: 100%;
      margin: 0;
      padding: 0;
-     font-family: helvetica, sans-serif;
- }
+     font-family: "Times New Roman", Times, serif;
+}
+
+body
+{
+    display: flex;
+    height: 100%;
+     margin: 0;
+     padding: 0;
+     font-family: "Times New Roman", Times, serif;
+}
 
 .menu {
-    background-color: #cccccc;
-    padding-left: 20px;
+    background-color: rgb(0,200,255);
+    padding-left: 15px;
 
 }
 
@@ -20,14 +29,12 @@ html, body
 
 #map
 {
-    flex-grow: 1;
     width: 100%;
+    cursor: pointer;
 }
 
-#pano
+#detail
 {
-
+  height: 250px;
   width: 300px;
-  height: 200px;
-}
 }
